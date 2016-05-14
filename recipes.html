@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Daily Desserts </title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="shortcut icon" href="images/dessertsLogo.png"/>
+		<link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'/>
+	</head>
+
+	<body>
+		<div id="main"> <!--Main Content Area-->
+			<header> <!--Header with the logo and navigation-->
+				<div id="banner">
+					<div id="dailydesserts"><a href="index.html">
+						<img src="images/dessertsLogo.png" alt="DD"/><h1>Daily Desserts</h1></a>
+					</div> <!--close dailydesserts-->
+					<nav> <!--navigation menubar-->
+						<ul id="menu">
+							<li> <a href="index.html">Home</a></li>
+							<li class="current"> <a href ="recipes.html"> Recipes</a></li>
+							<li> <a href ="showcase.html"> Showcase</a></li>
+							<li> <a href ="about.html"> About</a></li>
+							<li class="box"> <a href ="signin.html"> Sign In/Sign Up</a></li>
+						</ul>
+					</nav> 
+				</div> <!--close banner-->
+			</header> 
+
+			<div id="body">
+				<div class="searchRecipe">
+					<h2>Search Recipes</h2>
+					<form>
+						<p>Difficulty</p>
+						<input type="radio" name="difficulty" value="beginner" checked> Beginner<br>
+  						<input type="radio" name="difficulty" value="intermediate"> Intermediate<br>
+  						<input type="radio" name="difficulty" value="expert"> Expert<br>
+						<input type="checkbox" name="dinner"> Dinner <br>
+						<input type="checkbox" name="dinner"> Lunch <br>
+						<input type="checkbox" name="dinner"> Breakfast <br>
+						<input type="checkbox" name="dinner"> For Kids <br>
+						<select name="flavours">
+							<option value="chocolate">All Flavours</option>
+							<option value="chocolate">Chocolate</option>
+							<option value="caramel">Caramel</option>						  
+							<option value="vanilla">Vanilla</option>
+							<option value="fruity">Fruity</option>
+						</select><br>
+						<input type="checkbox" name="dinner"> Snacks <br>
+						<input type="checkbox" name="dinner"> Occasions <br>
+						<input type="checkbox" name="dinner"> Gluten Free <br>
+						<input type="checkbox" name="dinner"> Vegetarian <br>
+						<input type="checkbox" name="dinner"> Vegan <br>
+						<input type="button" onclick="alert('Hello World!')" value="Search">
+					</form>
+				</div><!--close searchRecipe-->
+				<div id="resultsInfo">
+					<div class="searchResult">
+						<ul>
+							<li>
+								<h4>Recipe 1</h4><img src="images/gallery_img1.jpg" alt="DD"/>
+							</li>
+							<li><img src="images/gallery_img2.jpg" alt="DD"/></li>
+							<li><img src="images/gallery_img3.jpg" alt="DD"/></li>
+							<li><img src="images/gallery_img4.jpg" alt="DD"/></li>
+						</ul>
+					</div> <!--close searchResults-->
+				</div><!--close resultsInfo-->
+			</div><!--close body-->
+		</div> <!--close main-->	
+		<footer>
+			<p>&copy; Daily Desserts | CB | INFS3202: Web Information Systems.</p>     
+		</footer>
+		<script src="js/main.js"></script>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/image_slide.js"></script>
+	</body>
+</html>

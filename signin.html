@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Daily Desserts </title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="shortcut icon" href="images/dessertsLogo.png"/>
+		<link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'/>
+		<script src="js/validate.js"></script>
+	</head>
+
+	<body>
+		<div id="main"> <!--Main Content Area-->
+			<header> <!--Header with the logo and navigation-->
+				<div id="banner">
+					<div id="dailydesserts"><a href="index.html">
+						<img src="images/dessertsLogo.png" alt="DD"/><h1>Daily Desserts</h1></a>
+					</div> <!--close dailydesserts-->
+					<nav> <!--navigation menubar-->
+						<ul id="menu">
+							<li> <a href="index.html">Home</a></li>
+							<li> <a href ="recipes.html"> Recipes</a></li>
+							<li> <a href ="showcase.html"> Showcase</a></li>
+							<li> <a href ="about.html"> About</a></li>
+							<li class="box"> <a href ="signin.html"> Sign In/Sign Up</a></li>
+						</ul>
+					</nav> 
+				</div> <!--close banner-->
+			</header> 
+
+			<div id="body">
+				<div id="userLogOn">
+					<div id="registerNow">
+						<div class="register">
+							<form name="myForm" action="" onsubmit= "return validateForm();" method="post">
+								<h1>New User Register </h1>
+								<p>First Name: <input type="text" name="firstname"></p>
+								<p>Last Name: <input type="text" name="lastname"></p>
+								<p>Gender: <input type="radio" name="gender" value="male" checked> Male <input type="radio" name="gender" value="female"> Female</p>
+								<p>Email: <input type="email" name="email"></p>
+								<p>Prefered User Name: <input type="text" name="username"></p>
+								<p>Password: <input type="password" name="psw"></p>
+								<p>Confirm Password: <input type="password" name="psw"></p>
+								<input type="submit" value="Register">
+							</form>
+						</div><!--close register-->
+						<div class="logOn" >
+							<form action="" onsubmit="return (validateForm())" method="post">
+								<h1>Existing Users Log In</h1>
+								<p>User Name: <input type="text" name="username"></p>
+								<p>Password: <input type="password" name="psw"></p>
+								<p><input type="checkbox" name="vehicle1" value="Bike"> Keep me logged in.</p>
+								<input type="submit" value="Log In">
+							</form>
+						</div>
+					</div><!--close registerNow-->
+				</div><!--close userLogOn-->
+			</div><!--close body-->
+		</div> <!--close main-->
+			
+		<footer>
+			<p>&copy; Daily Desserts | CB | INFS3202: Web Information Systems.</p> 
+		</footer>
+		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/image_slide.js"></script>
+	</body>
+</html>
