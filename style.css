@@ -1,0 +1,326 @@
+*
+{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	height: 100%;
+	background: black;
+	background-image: url('../images/dessertsbkgrd2.jpg');
+	background-position: center;
+	background-repeat: repeat;
+	/*background-size: 1700px;*/
+}
+
+body{
+	color: white;
+	font-family: Avenir, Helvetica, Arial;
+	height: auto;
+}
+
+p{
+	padding:0 0 10px 0;
+	line-height: 1.7em;
+	font-size: 100%;
+}
+h1, h2, h3, h4, h5, h6
+{
+	font-family: "Dancing Script", cursive;
+	color: black;
+	text-shadow:0px -1px 0px #000;
+	letter-spacing: -1px;
+	margin: 0 0 10px 0;
+}
+a, a:hover{
+	color: black;
+	background: transparent;
+	font-weight: bold;
+	outline:none;
+	text-decoration: none;
+}
+
+a:hover{
+	/*text-decoration: underline;*/
+	color: white;
+}
+ul{
+	margin: 2px 0 22px 30px;
+	line-height: 1.7em;
+	font-size: 100%
+}
+#main, #header, #banner, #menubar, #body, #footer{
+	margin-left: auto;
+	margin-right: auto;
+}
+#main{
+	background: transparent;
+}
+header{
+	height: 75px;
+}
+#banner{
+	width: 940px;
+	position: relative;
+	height: 50px;
+	padding: 15px 0 0 0;
+	background: transparent;
+}
+
+#dailydesserts{
+	width: 355px;
+	float: left;
+	height: 50px;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-top: 5px;
+	background: transparent;	
+}
+#dailydesserts img{
+	height:50px;
+	width: 50px;
+	float: left;
+}
+#dailydesserts h1{
+	font-family: "Dancing Script", cursive;
+	font-size: 40px;
+	text-shadow:1px 1px #000;
+	color:#FFF; 
+}
+nav{
+	width: 560px;
+	height: 50px;
+	float: right;
+	margin: 0 auto;
+}
+ul#menu{
+	margin:0;
+}
+ul#menu li{
+	padding: 0 0 0 0px;
+	list-style: none;
+	margin: 2px 0 0 0;
+	display: inline;
+	background: transparent;
+}
+ul#menu li a{
+	float: left;
+	font-family: "Dancing Script", cursive, Avenir, Helvetica, Arial;
+	font-size: 19px;
+	height: 24px;
+	margin: 10px 0 0 30px;
+	text-shadow:0px -1px 0px #000;
+	padding: 6px 10px 0 10px;
+	background: transparent;
+}
+ul#menu li.current a{
+	color: white;
+}
+ul#menu li.box a{
+	color: #FFCBC2;
+	background:transparent url('../images/transparent_bkgrnd.png');
+	width: 138px;
+	height: 35px;
+	box-shadow: rgba(0,0,0,0.5) 0px 0px 10px;
+}
+ul#menu li.box a:hover{
+	color: white;
+}
+#body{
+	width: 920px;
+	overflow: hidden;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	background: transparent url('../images/transparent_bkgrnd.png') repeat;
+	box-shadow: rgba(0,0,0,0.5) 0px 0px 10px; 
+}
+#contentOne, #contentTwo{
+	width: 900px;
+	float: left;
+	padding: 15px;
+}
+.contentOne h2 {
+	width: 900px;
+	text-align: center;
+}
+.contentTwo{
+	width: 900px;
+	margin-top: 10px;
+}
+.contentOne img{
+	float:right;
+	height: 200px;
+	width:215px;
+	padding: 20px;
+	box-shadow: rgba(0,0,0,0.5) 0px 0px 10px;
+}
+.contentTwo img{
+	box-shadow: rgba(0,0,0,0.5) 0px 0px 10px;
+	height: 550px;
+	width: 690px;
+	margin: 100px;
+}
+
+#contactUs form{
+	position: static;
+	background-color: white;
+	box-shadow: rgba(0,0,0,0.5) 0px 0px 10px;
+	color: black;
+	height:375px;
+	width: 875px;
+	padding: 50px;
+}
+.contact{
+	text-align: center;
+	font-size: 18px;
+	padding: 50px;
+	color: black;
+}
+.container
+{
+	float: left;
+	width: 900px;
+}
+#userLogOn{
+	height: 750px;
+}
+.register, .logOn {
+	background-color: white;
+	box-shadow: rgba(0,0,0,0.5) 0px 0px 10px;
+	border-radius: 20px;
+	padding: 40px;
+	margin: 20px;
+	color: black;
+	width:400px; 
+	height: 450px;
+}
+.register{
+	float: left;
+}
+.logOn{
+	float: right;
+	margin-right: 40px;
+}
+#resultsInfo{
+	background:white;
+	box-shadow: rgba(0,0,0,0.5) 0px 0px 10px;
+	color: black;
+	width: 650px;
+	padding: 25px;
+	float: right;
+	margin: 50px;
+}
+button{
+	color: red;
+}
+	.quickandeasy h2, .healthy h2, .chocolate h2
+	{
+		color: red;
+		text-shadow:1px 1px #FFF;
+		font-family: "Dancing Script", cursive
+	}
+
+	.quickandeasy, .healthy, .chocolate
+	{
+		width: 240px;
+		margin-left: 25px;
+		float:left;
+		padding: 20px;
+		background: white;
+		color: black;
+		border-radius: 7px 7px 7px 7px;
+	}
+	.more 
+	{
+		font: bold "Dancing Script", cursive;
+		float: inherit;
+		padding: 5px 10px 5px 10px;
+		background: white;
+		border-radius: 10px 10px 10px 10px;
+		box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+
+	}
+/*CSS and javaScript for the slideshow is based off an example by ARaynorDesign*/
+.slideshow {
+  width: 900px;
+  height: 350px;
+  float: left;
+  margin-bottom: 40px;
+  border-radius: 7px 7px 7px 7px;
+  }
+/* styling for the slideshow on the homepage */
+	ul.slideshow {
+	  list-style: none;
+	  width: 900px;
+	  height: 350px;
+	  overflow: hidden;
+	  position: relative;
+	  margin: 20px 0 0 0;}
+	  
+	ul.slideshow li {
+	  position: absolute;
+	  margin: 0;
+	  padding: 0;
+	  left: 0;
+	  right: 0;}
+	 
+	ul.slideshow li.show {
+	  z-index: 500;}
+	 
+	ul img {
+	  border: none;}
+	 
+	#slideshow-caption {
+	  width: 900px;
+	  height: 38px;
+	  position: absolute;
+	  bottom: 0;
+	  left: 0; 
+	  z-index: 500;}
+	 
+	#slideshow-caption .slideshow-caption-container {
+	  padding: 10px 25px 10px 25px; 
+	  background: transparent url('../images/transparent_bkgrnd.png') repeat;  
+	  z-index: 1000;}
+	 
+	#slideshow-caption p {
+	  padding: 0;
+	  font: normal 130% arial, sans-serif;
+	  color: #FFF;
+	  text-shadow: 1px 1px #000;}
+
+.searchRecipe{
+	float: left;
+	background-color: white;
+	color: black;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+	border-radius: 10px;
+	width: 150px;
+	height: 500px;
+	padding: 10px;
+}
+.searchResult{
+	float: top;
+	margin:10px;
+}
+.searchResult img{
+	height: 100px;
+	width: 100px;
+	border-radius: 10px;
+} 
+.searchResult .results h4{
+	float: left;
+}
+footer{
+	height:20px;
+	margin-top: 15px;
+	background: black;
+	text-align: center;
+	background-color: black;
+	padding: 20px;
+	width: auto;
+	height: 75px;
+}
+
